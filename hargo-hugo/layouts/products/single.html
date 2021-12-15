@@ -7,13 +7,13 @@
     <div class="row">
       <div class="col-lg-5 mb-4 mb-lg-0">
         <!-- product image slider -->
-<!--        <div class="product-slider">-->
-          {{ range first 1 .Params.Images }}
+        <div class="product-slider">
+          {{ range first 5 .Params.Images }}
           <div data-image="{{ .image | absURL }}">
             <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="product-img">
           </div>
           {{ end }}
-<!--        </div>-->
+        </div>
       </div>
       <div class="col-lg-5 offset-lg-1">
         <h4 class="font-weight-medium">{{ .Title }}</h4>
@@ -32,7 +32,7 @@
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
           data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-          Add to cart
+          Request Info
         </button>
       </div>
       <div class="col-12 mt-5">

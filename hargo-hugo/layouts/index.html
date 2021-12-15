@@ -99,6 +99,33 @@
 {{ end }}
 <!-- /dryerballs -->
 
+<!-- bags -->
+{{ if site.Data.homepage.bags.enable }}
+{{ with site.Data.homepage.bags }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-lg-5 col-md-6">
+        <a data-fancybox="gallery" href="{{ .image | absURL }}">
+          <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /bags -->
+
 <!-- about -->
 {{ if site.Data.homepage.about.enable }}
 {{ with site.Data.homepage.about }}
@@ -234,15 +261,15 @@
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
             <div class="mb-4">
-              {{ if .Params.PriceBefore }}
-              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
-              {{ end }}
-              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+<!--              {{ if .Params.PriceBefore }}-->
+<!--              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>-->
+<!--              {{ end }}-->
+<!--              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>-->
             </div>
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
               {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-              Add to cart
+              Details
             </button>
           </div>
         </div>

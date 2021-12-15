@@ -2,8 +2,10 @@
 banner:
   enable : true
   title : "Top 100 Searches"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  content : "Business growth comes down to building relationships.
+          And intentional company swag can help you do that. People love free things,
+          especially when they have value. Keeping track of what's hot and what's not can help you give out more
+          meaningful company swag this year."
   image : "images/banner.jpg"
   # button
   button:
@@ -41,9 +43,22 @@ dryerballs:
     label : "All Products"
     link : "products"
 
+########################## Bags ###############################
+bags:
+  enable: true
+  title: "Yoga Carry Bag"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed dia"
+  image: "images/products/bags/product-bag.jpg"
+  # button
+  button:
+    enable : true
+    label : "All Products"
+    link : "products"
+
 ########################## About ##############################
 about:
-  enable : true
+  enable : false
   title : "About Our Product"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -56,7 +71,7 @@ cta:
   enable : true
   title : "Buy one Get One Free Taba Cream"
   content : "Available for limited time only. Grab one while you still can!"
-  image : "images/cta.png"
+  image : "images/gsp.png"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "All Products"
@@ -92,9 +107,9 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
+  title : "Advantages Of Our Product"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  image : "images/lovepic.jpg"
   advantageList:
     # advantage list loop
     - listItem : "Extremely lightweight"

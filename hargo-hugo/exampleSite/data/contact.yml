@@ -1,10 +1,11 @@
 ############################# contact info ################
 contact:
   enable : true
+
   # office
   office:
     title : "Central Office"
-    content : "SuZhou City, Jiangsu Province of China.PR"
+    content : "350 NORTHERN BLVD STE 324-1331 ALBANY, NY 12204"
     # other information comes from "config.toml"
 
   # opennig hour

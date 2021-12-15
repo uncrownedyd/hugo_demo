@@ -38,14 +38,19 @@ disqusShortname = ""
   weight = 1
 
   [[menu.main]]
+  name = "About Us"
+  URL = "contact"
+  weight = 3
+
+  [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 2
+  weight = 3
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 3
+  weight = 4
 
   ############# footer menu #############
   [[menu.footer]]
@@ -84,9 +89,9 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+#mobile = "0124857985320"
+email = "Marketing@goldenspacepromo.com"
+location = "350 NORTHERN BLVD STE 324-1331 ALBANY, NY 12204"
 # copyright
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
