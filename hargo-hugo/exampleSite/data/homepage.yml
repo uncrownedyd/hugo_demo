@@ -19,7 +19,7 @@ banner:
 
 ########################## Mask ###############################
 mask:
-  enable: true
+  enable: false
   title: "Where to Buy Face Masks"
   content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed dia"
@@ -32,7 +32,7 @@ mask:
 
 ########################## DryerBalls ###############################
 dryerballs:
-  enable: true
+  enable: false
   title: "Wool Dryer Balls"
   content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed dia"
@@ -41,11 +41,11 @@ dryerballs:
   button:
     enable : true
     label : "All Products"
-    link : "products"
+    link : "blog"
 
-########################## Bags ###############################
+########################## bags ###############################
 bags:
-  enable: true
+  enable: false
   title: "Yoga Carry Bag"
   content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed dia"
@@ -68,7 +68,7 @@ about:
 
 ###################### Call to action ########################
 cta:
-  enable : true
+  enable : false
   title : "Buy one Get One Free Taba Cream"
   content : "Available for limited time only. Grab one while you still can!"
   image : "images/gsp.png"
@@ -79,7 +79,7 @@ cta:
 
 ######################## raw material #######################
 material:
-  enable : true
+  enable : false
   title : "Ingredients Of Our Products"
   subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dol."
@@ -106,7 +106,7 @@ material:
 
 ########################### Advantage #########################
 advantage:
-  enable : true
+  enable : false
   title : "Advantages Of Our Product"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
   image : "images/lovepic.jpg"
@@ -122,17 +122,47 @@ advantage:
 
 ######################## Promo Video ##########################
 video:
-  enable : true
+  enable : false
   title : "How To Use This Product?"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
+######################## Promotion #############################
+promotion:
+  enable : true
+  title : "Start Browsing Promotional Products"
+  promoItem :
+    - cover : "images/promotion/bags.jpeg"
+      Desc: "Short desc"
+      button : "bags, See more 👉"
+      link : "bags"
+
+    - cover : "images/promotion/drinkware.png"
+      Desc: "Short desc"
+      button : "DrinkWare,See more  👉"
+
+    - cover : "images/promotion/office.png"
+      Desc: "Short desc"
+      button : "Office, See more  👉"
+
+    - cover : "images/promotion/clothing.jpeg"
+      Desc: "Short desc"
+      button : "Clothing, See more   👉"
+
+    - cover: "images/promotion/technology.png"
+      Desc: "Short desc"
+      button: "Technology, See more  👉"
+
+    - cover: "images/promotion/outdoor.jpeg"
+      Desc: "Short desc"
+      button: "Outdoor, See more  👉"
+  # product item comes from "content/products"
 
 ######################## Products #############################
 products:
-  enable : true
+  enable : false
   title : "Products List"
   # product item comes from "content/products"
 

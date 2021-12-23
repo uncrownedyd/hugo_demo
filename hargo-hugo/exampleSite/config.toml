@@ -32,44 +32,44 @@ disqusShortname = ""
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Products"
-  URL = "products"
-  weight = 1
+#   [[menu.main]]
+#   name = "Products"
+#   URL = "products"
+#   weight = 2
 
   [[menu.main]]
   name = "About Us"
   URL = "contact"
   weight = 3
 
-  [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 3
+#   [[menu.main]]
+#   name = "FAQ"
+#   URL = "faq"
+#   weight = 3
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 4
+#   [[menu.main]]
+#   name = "Contact"
+#   URL = "contact"
+#   weight = 4
 
   ############# footer menu #############
-  [[menu.footer]]
-  name = "Products"
-  URL = "products"
-  weight = 1
+#   [[menu.footer]]
+#   name = "Products"
+#   URL = "products"
+#   weight = 1
+
+#   [[menu.footer]]
+#   name = "FAQ"
+#   URL = "faq"
+#   weight = 2
+
+#   [[menu.footer]]
+#   name = "Terms & Conditions"
+#   URL = "terms-conditions"
+#   weight = 3
 
   [[menu.footer]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "terms-conditions"
-  weight = 3
-
-  [[menu.footer]]
-  name = "Contact"
+  name = "About Us"
   URL = "contact"
   weight = 4
 
@@ -80,7 +80,7 @@ logo = "images/gsp.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "dani"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
@@ -89,7 +89,7 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
-#mobile = "0124857985320"
+mobile = "+086-1234567890"
 email = "Marketing@goldenspacepromo.com"
 location = "350 NORTHERN BLVD STE 324-1331 ALBANY, NY 12204"
 # copyright

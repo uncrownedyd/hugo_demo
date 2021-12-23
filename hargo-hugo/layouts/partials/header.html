@@ -33,7 +33,26 @@
           {{ end }}
         </ul>
       </div>
-      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>
+
+      <div class="col-md-7 col-sm-2">
+        <ul class="list-unstyled mb-5">
+          <li class="mb-2"><a class="text-color" href="tel:{{ site.Params.mobile }}"><i
+                  class="ti-mobile text-primary mr-2"></i>
+            {{ site.Params.mobile }}</a></li>
+          <li class="mb-2"><a class="text-color" href="mailto:{{ site.Params.email }}"><i
+                  class="ti-email text-primary mr-2"></i> {{ site.Params.email }}</a></li>
+          <li class="mb-2"><i class="ti-location-pin text-primary mr-2"></i> {{ site.Params.location }}
+          </li>
+        </ul>
+        <!-- Social Icons -->
+<!--        <ul class="list-inline">-->
+<!--          {{ range site.Params.social }}-->
+<!--          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>-->
+<!--          {{ end }}-->
+<!--        </ul>-->
+      </div>
+
+<!--      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>-->
     </nav>
   </div>
 </header>
