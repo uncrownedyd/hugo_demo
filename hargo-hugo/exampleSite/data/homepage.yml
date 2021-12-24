@@ -142,30 +142,47 @@ promotion:
     - cover : "images/promotion/drinkware.png"
       Desc: "Short desc"
       button : "DrinkWare,See more  👉"
+      link : "bags"
 
     - cover : "images/promotion/office.png"
       Desc: "Short desc"
       button : "Office, See more  👉"
+      link : "bags"
 
     - cover : "images/promotion/clothing.jpeg"
       Desc: "Short desc"
       button : "Clothing, See more   👉"
+      link : "bags"
 
     - cover: "images/promotion/technology.png"
       Desc: "Short desc"
       button: "Technology, See more  👉"
+      link : "bags"
 
     - cover: "images/promotion/outdoor.jpeg"
       Desc: "Short desc"
       button: "Outdoor, See more  👉"
+      link : "bags"
   # product item comes from "content/products"
 
 ######################## Products #############################
 products:
   enable : false
   title : "Products List"
+  images :
+    - image: "images/promotion/bags.jpeg"
+    - image: "images/promotion/drinkware.png"
+    - image: "images/promotion/office.png"
+    - image: "images/promotion/clothing.jpeg"
+    - image: "images/promotion/technology.png"
+
   # product item comes from "content/products"
 
+######################## Flyer #############################
+flyer:
+  enable : true
+  title : "Title"
+  # product item comes from "content/products"
 
 ########################## Testimonial ########################
 testimonial:
