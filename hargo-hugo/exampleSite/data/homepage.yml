@@ -106,7 +106,7 @@ material:
 
 ########################### Advantage #########################
 advantage:
-  enable : false
+  enable : true
   title : "Advantages Of Our Product"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
   image : "images/lovepic.jpg"
@@ -144,7 +144,12 @@ promotion:
       button : "DrinkWare,See more  👉"
       link : "bags"
 
-    - cover : "images/promotion/office.png"
+    - cover: "images/promotion/tech_new.png"
+      Desc: "Short desc"
+      button: "Technology, See more  👉"
+      link : "bags"
+
+    - cover : "images/promotion/office_new.png"
       Desc: "Short desc"
       button : "Office, See more  👉"
       link : "bags"
@@ -152,11 +157,6 @@ promotion:
     - cover : "images/promotion/clothing.jpeg"
       Desc: "Short desc"
       button : "Clothing, See more   👉"
-      link : "bags"
-
-    - cover: "images/promotion/technology.png"
-      Desc: "Short desc"
-      button: "Technology, See more  👉"
       link : "bags"
 
     - cover: "images/promotion/outdoor.jpeg"

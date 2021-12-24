@@ -32,15 +32,15 @@ disqusShortname = ""
 ############################## navigation ###############################
 [menu]
 
-#   [[menu.main]]
-#   name = "Products"
-#   URL = "products"
-#   weight = 2
+  [[menu.main]]
+  name = "Products"
+  URL = "products"
+  weight = 3
 
   [[menu.main]]
   name = "About Us"
   URL = "contact"
-  weight = 3
+  weight = 4
 
 #   [[menu.main]]
 #   name = "FAQ"
