@@ -58,23 +58,25 @@ bags:
 
 ########################## About ##############################
 about:
-  enable : false
+  enable : true
   title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
-  image : "images/about.png"
+  content : "Looking for promotional products?
+
+You've come to the right site. Golden space promo is your one stop shop for all of your Promotional Products, Government Contracting, Corporate Gifts, Business Documents, Printing Services and eCommerce Solutions.
+Whether you are looking for a specific item or just browsing for ideas, our site is your one-stop shopping source. From fun items to the traditional, you can easily shop for some of the hottest items on the market.
+"
+  image : "images/lovepic.jpg"
 
 
 ###################### Call to action ########################
 cta:
-  enable : false
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  enable : true
+  title : "Call To Buy"
+  content : "Description for more product post"
   image : "images/gsp.png"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "All Products"
+    label : "All Products Post"
     link : "products"
 
 ######################## raw material #######################
@@ -108,16 +110,24 @@ material:
 advantage:
   enable : true
   title : "Advantages Of Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  subtitle : "Find custom promo products for your company at Golden Sapce
+Welcome to Golden space : Here you’ll find a wide collection of custom promotional products, so you can stand out in a way that’s right for your business. Whether you’re looking for promotional clothing and custom uniforms, personalised bags, or custom sports and water bottles, we’ve got options for your team and company.
+"
   image : "images/lovepic.jpg"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : "Low quantities: Get the products you want in the numbers you need. Many of our products can be ordered individually. And the more you order, the more you save.
+"
+    - listItem : "Easy customisation
+Upload your logo, add text and preview your design in real-time. Our design studio offers a wide range of fonts and makes it easy to add colour to your ideas.
+"
+    - listItem: "Satisfaction guaranteed
+We’ll do everything we can to make your experience with us a positive one. If you’re not 100% satisfied with your order, let us know and we’ll make it right.
+"
+#    - listItem : "Can increase Cell activation"
+#    - listItem : "Glowing Skin In 7 Days"
+#    - listItem : "Increasing Glow Of Face"
+#    - listItem : "More Beautiful Face Skin"
 
 
 ######################## Promo Video ##########################
@@ -144,7 +154,7 @@ promotion:
       button : "DrinkWare,See more  👉"
       link : "bags"
 
-    - cover: "images/promotion/tech_new.png"
+    - cover: "images/promotion/tech_full.jpeg"
       Desc: "Short desc"
       button: "Technology, See more  👉"
       link : "bags"
@@ -180,7 +190,7 @@ products:
 
 ######################## Flyer #############################
 flyer:
-  enable : true
+  enable : false
   title : "Title"
   # product item comes from "content/products"
 
