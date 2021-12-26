@@ -10,8 +10,8 @@ banner:
   # button
   button:
     enable : true
-    label : "All Products"
-    link : "products"
+    label : "See More On-Sales"
+    link : "promotion"
   # demo video
   video:
     enable : true
@@ -58,7 +58,7 @@ bags:
 
 ########################## About ##############################
 about:
-  enable : true
+  enable : false
   title : "About Our Product"
   content : "Looking for promotional products?
 
@@ -174,6 +174,44 @@ promotion:
       button: "Outdoor, See more  👉"
       link : "bags"
   # product item comes from "content/products"
+
+######################## Promo-Total #############################
+promototoal:
+  enable : true
+  title : "Promotional Products"
+  promoItem :
+    - cover : "images/promo-post/1.jpg"
+      Desc: "Two-Tone Ceramic Mugs"
+    - cover : "images/promo-post/2.jpg"
+      Desc: "Round Stress Relievers"
+    - cover: "images/promo-post/3.jpg"
+      Desc: "Custom Cinch Up Backpacks"
+    - cover: "images/promo-post/4.png"
+      Desc: "Customized Budget Coffee Mugs"
+    - cover: "images/promo-post/5.jpg"
+      Desc: "Advertising Alpine Aluminum Water Bottles"
+    - cover: "images/promo-post/6.png"
+      Desc: "Imprinted Antibacterial Hand Sanitizer"
+    - cover: "images/promo-post/7.jpg"
+      Desc: "Logo Eco-Friendly Non Woven Tote Bags
+      16\" x 12\" x 6\""
+    - cover: "images/promo-post/8.jpg"
+      Desc: "Promo Archer 2 Pens"
+    - cover: "images/promo-post/9.png"
+      Desc: "Logo Small Round Gel Beads Hot or Cold Packs"
+    - cover: "images/promo-post/10.jpg"
+      Desc: "Imprinted Eco-Friendly Non Woven Tote Bags
+13.5\" x 14.5\""
+    - cover: "images/promo-post/11.jpg"
+      Desc: "Logo Econo Silicone Mobile Device Pocket Card Holders"
+    - cover: "images/promo-post/12.png"
+      Desc: "Imprinted Shelby Stemless Wine Glasses with Lid"
+    - cover: "images/promo-post/13.jpg"
+      Desc: "Advertising Smooth Stadium Cups"
+    - cover: "images/promo-post/14.jpg"
+      Desc: "Marketing Atlas Non Woven Grocery Totes"
+    - cover: "images/promo-post/15.jpg"
+      Desc: "Advertising Jumbo Magnetic Clips"
 
 ######################## Products #############################
 products:

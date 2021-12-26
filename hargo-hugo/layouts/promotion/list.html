@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                {{ with site.Data.homepage.promototoal }}
+                <h2>{{ .title | markdownify }}</h2>
+                {{ end }}
+            </div>
+            {{ with site.Data.homepage.promototoal }}
+            {{ range .promoItem }}
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <!--                <a href="{{ .Permalink }}">-->
+                    <img src="{{ .cover | absURL }}" alt="{{ .Title }}" class="card-img-top">
+                    <!--                </a>-->
+                </div>
+                <div class="card-body">
+                                    <a class="h3">{{ .Desc }}</a>
+<!--                    <div class="mb-4">-->
+<!--                    </div>-->
+<!--                    <a href="{{ .link }}" class="btn btn-primary mr-3">-->
+<!--                        {{ .button }}-->
+<!--                    </a>-->
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!--<section class="section pt-0">-->
+<!--  <div class="container">-->
+<!--    <div class="row">-->
+<!--      {{ range .Data.Pages }}-->
+<!--      <div class="col-lg-4 col-sm-6 mb-4">-->
+<!--        <div class="card border-0 text-center">-->
+<!--&lt;!&ndash;          <a href="{{ .Permalink }}">&ndash;&gt;-->
+<!--            {{ range first 1 .Params.Images }}-->
+<!--          <a data-fancybox="gallery" href="{{ .image | absURL }}">-->
+<!--            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">-->
+<!--          </a>-->
+<!--            {{ end }}-->
+<!--&lt;!&ndash;          </a>&ndash;&gt;-->
+<!--          <div class="card-body">-->
+<!--            <a class="h4">{{ .Params.Description }}</a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      {{ end }}-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
+{{ if site.Data.homepage.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+
+{{ end }}

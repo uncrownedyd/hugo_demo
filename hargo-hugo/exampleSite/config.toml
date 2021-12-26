@@ -92,6 +92,7 @@ googleAnalitycsID = "" # Your ID
 mobile = "+086-1234567890"
 email = "Marketing@goldenspacepromo.com"
 location = "350 NORTHERN BLVD STE 324-1331 ALBANY, NY 12204"
+fb = "https://business.facebook.com/Golden-Space-Promo-Inc-106150765273126/"
 # copyright
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
@@ -114,7 +115,7 @@ fancybox = true
   # Social Site
   [[params.social]]
   icon = "ti-facebook"
-  link = "#"
+  link = "https://business.facebook.com/Golden-Space-Promo-Inc-106150765273126/"
 
   [[params.social]]
   icon = "ti-twitter-alt"
