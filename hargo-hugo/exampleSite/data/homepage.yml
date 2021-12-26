@@ -154,7 +154,7 @@ promotion:
       button : "DrinkWare,See more  👉"
       link : "bags"
 
-    - cover: "images/promotion/tech_full.jpeg"
+    - cover: "images/promotion/tech_match.jpeg"
       Desc: "Short desc"
       button: "Technology, See more  👉"
       link : "bags"

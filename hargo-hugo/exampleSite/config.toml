@@ -53,10 +53,10 @@ disqusShortname = ""
 #   weight = 4
 
   ############# footer menu #############
-#   [[menu.footer]]
-#   name = "Products"
-#   URL = "products"
-#   weight = 1
+  [[menu.footer]]
+  name = "Products"
+  URL = "products"
+  weight = 1
 
 #   [[menu.footer]]
 #   name = "FAQ"
