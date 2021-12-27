@@ -108,15 +108,15 @@
 }
 
 .search-wrapper {
-  position: absolute;
+  //position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 100%;
   z-index: 2;
-  visibility: hidden;
+  visibility: visible;
   transition: .2s ease;
-  opacity: 0;
+  opacity: 10;
 
   &.open {
     visibility: visible;
@@ -138,7 +138,7 @@
 }
 
 .search-close {
-  position: absolute;
+  //position: absolute;
   right: 5px;
   top: 50%;
   transform: translateY(-50%);

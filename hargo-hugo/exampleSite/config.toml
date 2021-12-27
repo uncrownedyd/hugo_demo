@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://hugo-demo-5gfvvqob702d4724-1306047430.tcloudbaseapp.com"
+baseURL = "https://golden-space.vercel.app"
 languageCode = "en"
 title = "GlodenSpacePromo | Focus on your brand"
 theme = "hargo-hugo"
@@ -94,7 +94,7 @@ email = "Marketing@goldenspacepromo.com"
 location = "350 NORTHERN BLVD STE 324-1331 ALBANY, NY 12204"
 fb = "https://business.facebook.com/Golden-Space-Promo-Inc-106150765273126/"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; 2021 [GoldenSpacePromo Inc](https://goldenspacepromo.com) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "$"
@@ -136,3 +136,13 @@ fancybox = true
   # Contact Form
   [params.contact]
   formAction = "#" # contact form works with formspree.io
+
+  [params.Search]
+  enable = true    # true or false
+  type = 'algolia'  # lunr or algolia
+  index = 'algolia_index'  # algolia enabled
+  appID = 'algolia_application_id' # algolia enabled
+  searchKey = 'algolia_search_only_key' # algolia enabled
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

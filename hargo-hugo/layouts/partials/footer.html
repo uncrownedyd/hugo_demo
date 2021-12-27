@@ -1,3 +1,4 @@
+<link href="{{ "lib/search/auto-complete.css" | relURL}}" rel="stylesheet">
 <footer class="section pb-0">
   <div class="container">
     <div class="row border-bottom pb-5 justify-content-between">
@@ -5,32 +6,82 @@
         <a href="{{ site.BaseURL }}"><img src="{{ site.Params.logo | absURL }}" class="img-fluid"
             alt="{{ site.Title }}"></a>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <h5 class="font-weight-medium mb-4">Important Links</h5>
-        <ul class="list-unstyled">
-          {{ range site.Menus.footer }}
-          <li class="mb-3"><a class="text-color" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
+      <div class="col-md-6 col-sm-6">
+        <h3 class="font-weight-medium mb-4">Buy Affordable Promotional Products</h3>
+        <div class="row">
+          <div class="col-sm-4">
+            <ul class="nav4">
+              <li class="mb-4">
+                <a class="text-color" href="/">
+                  <h4> Home </h4>
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="text-color" href="about">
+                  <h4>About Us </h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul class="nav4">
+              <li class="mb-4">
+                <a class="text-color" href="/">
+                  <h4>Search</h4>
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="text-color" href="promotion">
+                  <h4>Hot Products</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+<!--        <ul class="list-unstyled">-->
+<!--          {{ range site.Menus.footer }}-->
+<!--          <li class="mb-3"><a class="text-color" href="{{ .URL | absURL }}">{{ .Name }}</a></li>-->
+<!--          {{ end }}-->
+<!--        </ul>-->
       </div>
       <div class="col-md-4 col-sm-6">
-        <h5 class="font-weight-medium mb-4">Connect With Us</h5>
-        <ul class="list-unstyled mb-5">
-          <li class="mb-3"><a class="text-color" href="tel:{{ site.Params.mobile }}"><i
-                class="ti-mobile text-primary mr-2"></i>
-              {{ site.Params.mobile }}</a></li>
-          <li class="mb-3"><a class="text-color" href="mailto:{{ site.Params.email }}"><i
-                class="ti-email text-primary mr-2"></i> {{ site.Params.email }}</a></li>
-          <li class="mb-3"><i class="ti-location-pin text-primary mr-2"></i> {{ site.Params.location }}
-          </li>
-        </ul>
         <!-- Social Icons -->
         <ul class="list-inline">
           {{ range site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
           {{ end }}
         </ul>
+        <h4 class="font-weight-medium mb-4">Golden Space Promotion</h4>
+        <ul class="list-unstyled mb-5">
+<!--          <li class="mb-3"><a class="text-color" href="tel:{{ site.Params.mobile }}"><i-->
+<!--                class="ti-mobile text-primary mr-2"></i>-->
+<!--              {{ site.Params.mobile }}</a></li>-->
+          <li class="mb-3"><a class="text-color" href="mailto:{{ site.Params.email }}"><i
+                class="ti-email text-primary mr-2"></i> {{ site.Params.email }}</a></li>
+          <li class="mb-3"><i class="ti-location-pin text-primary mr-2"></i> {{ site.Params.location }}
+          </li>
+        </ul>
       </div>
+
+<!--      <div class="search-wrapper">-->
+<!--        <div class="searchbox">-->
+<!--          <div id='inputfield'>-->
+<!--            <i class='fa fa-search icon-search'></i>-->
+<!--            <input id="search-by" autocomplete='off' autocorrect='off' name='address' placeholder="{{T "Search-placeholder"}}"-->
+<!--            spellcheck='false' type='text'>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <form role="search" id="form">-->
+<!--        <input type="search" id="query" name="q"-->
+<!--               placeholder="Search..."-->
+<!--               aria-label="Search through site content">-->
+<!--        <button>-->
+<!--          <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>-->
+<!--        </button>-->
+<!--      </form>-->
+
 <!--      <div class="col-lg-4 col-md-5">-->
 <!--        <h5 class="font-weight-medium mb-4">Contact us</h5>-->
 <!--        <form action="{{ site.Params.contact.formAction }}" method="POST">-->
