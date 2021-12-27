@@ -22,7 +22,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/flyer/kitchen_set.jpg"
+  - image: "images/products/flyer/kitchen_set.jpeg"
   #- image: "images/products/mask/men_mask_gh_blue.jpeg"
   #- image: "images/products/mask/mask-love-kit-black.jpeg"
   #- image: "images/products/mask/HOLPENGNMASKGH_main_global_BLUE0001.jpeg"
