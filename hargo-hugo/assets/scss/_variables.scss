@@ -14,8 +14,10 @@ $light: rgb(223, 223, 223);
 $primary-gradient: #EFD020;
 
 // Font Variables
-$primary-font: 'Josefin Sans', sans-serif;
+//$primary-font: 'Josefin Sans', sans-serif;
 //$primary-font: 'Quicksand', sans-serif;
+$primary-font: 'DM Serif Display', sans-serif;
 $icon-font: 'themify';
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans&display=swap');

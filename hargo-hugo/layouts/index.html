@@ -221,22 +221,19 @@
 <section class="section pb-0">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center mb-4">
+            <div class="col-12 mb-4">
                 {{ with site.Data.homepage.promotion }}
-                <h2>{{ .title | markdownify }}</h2>
+                <h2 class="text-center">{{ .title | markdownify }}</h2>
+                <p>{{ .content | markdownify }}</p>
                 {{ end }}
             </div>
         {{ with site.Data.homepage.promotion }}
         {{ range .promoItem }}
         <div class="col-lg-4 col-sm-6 mb-4">
             <div class="card border-0 text-center">
-<!--                <a href="{{ .Permalink }}">-->
-                    <img src="{{ .cover | absURL }}" alt="{{ .Title }}" class="card-img-top">
-<!--                </a>-->
+                <img src="{{ .cover | absURL }}" alt="{{ .Title }}" class="card-img-top">
             </div>
             <div class="card-body">
-<!--                <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>-->
-<!--                <p>{{ .Desc }}</p>-->
                 <div class="mb-4">
                 </div>
                 <a href="{{ .link }}" class="btn btn-primary mr-3">
@@ -373,9 +370,9 @@
                 <div class="card border-primary text-center">
                     <div class="card-body">
                         <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
+                        <h3 class="font-weight-medium">{{ .name | markdownify }}</h3>
+                        <h5>{{ .designation | markdownify }}</h5>
                         <p class="quoted">{{ .content | markdownify }}</p>
-                        <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
-                        <small>{{ .designation | markdownify }}</small>
                         <ul class="list-inline rating {{ .rating | lower }} mt-3">
                             <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
                             <li class="list-inline-item mx-0"><i class="ti-star"></i></li>

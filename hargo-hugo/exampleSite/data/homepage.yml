@@ -71,8 +71,9 @@ Whether you are looking for a specific item or just browsing for ideas, our site
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Call To Buy"
-  content : "Description for more product post"
+  title : "Blogging & Content"
+  content : "Learn how to produce valuable content for your audience that is both helpful and informative.
+  Become a trusted resource that prospects will turn to within your industry."
   image : "images/gsp.png"
   overlayImage : "images/cta-overlay.png"
   button:
@@ -109,7 +110,7 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Our Product"
+  title : "Advantages Of Our Service"
   subtitle : "Find custom promo products for your company at Golden Sapce
 Welcome to Golden space : Here you’ll find a wide collection of custom promotional products, so you can stand out in a way that’s right for your business. Whether you’re looking for promotional clothing and custom uniforms, personalised bags, or custom sports and water bottles, we’ve got options for your team and company.
 "
@@ -142,7 +143,9 @@ video:
 ######################## Promotion #############################
 promotion:
   enable : true
-  title : "Start Browsing Promotional Products"
+  title : "Promotional Products"
+  content : "The promotional products resource for marketers that are ready to activate their brand.
+  Learn from experts about trending promotional products, product reviews, custom branded swag, and branded clothing so you can activate your brand."
   promoItem :
     - cover : "images/promotion/bags.jpeg"
       Desc: "Short desc"
@@ -154,7 +157,7 @@ promotion:
       button : "DrinkWare,See more  👉"
       link : "bags"
 
-    - cover: "images/promotion/tech_match.jpeg"
+    - cover: "images/promotion/tech1.png"
       Desc: "Short desc"
       button: "Technology, See more  👉"
       link : "bags"
@@ -285,32 +288,33 @@ flyer:
 ########################## Testimonial ########################
 testimonial:
   enable : true
-  title : "What People Are Saying <br> About Our Product"
+  title : "Glance For Major Staff In GoldenSpacePromo"
   testimonialItem:
     # testimonial item loop
-    - name : "Angelo Perara"
+    - name : "Ken Tu"
       image : "images/clients/client-1.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      designation : "Vice President of Sales"
+      content : "Experienced sales professional with a demonstrated history of working in the marketing and advertising industry. Skilled in Sales Coaching, Advertising, Business Development, Marketing Strategy, and Account Management. Strong entrepreneurship professional！"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "Riya Ventila"
+    - name : "Leslie Lee"
       image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "three" # rating star, one to five
+      designation : "Director of Marketing"
+      content : "Professional communicator, marketer, writer and advocate for the print and promotional products industry.
+My goal is to help our sales associates, vendor partners, customers and corporate teams connect and find success through expertly-executed events, marketing strategy and compelling brand storytelling."
+      rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "john Doe"
+    - name : "Carrie Wong"
       image : "images/clients/client-3.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      designation : "Promotional Sales Rep"
+      content : "Specialties: I specialize in finding effective promotional products that will make the right impression to the group you are targeting. Give me a little information: intended receiver, desired outcome, when and where the event will take place, and I'll come back with some great options that will have the desired impact!"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "Riya Ventila"
-      image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "four" # rating star, one to five
+#    - name : "Riya Ventila"
+#      image : "images/clients/client-2.jpg" # size 100px*100px
+#      designation : "CEO, Dialogue Broad Band"
+#      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+#      rating : "four" # rating star, one to five
