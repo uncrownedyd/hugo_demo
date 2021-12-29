@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://www.goldenspacepromo.com/"
 languageCode = "en"
-title = "GlodenSpacePromo | Focus on your brand"
+title = "GoldenSpacePromo | Focus on your brand"
 theme = "hargo-hugo"
 summaryLength = "20"
 paginate = 10
@@ -76,10 +76,10 @@ disqusShortname = ""
 
 #################### default parameters ################################
 [params]
-logo = "images/gsp.png"
+logo = "images/gsp_logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Golden Space Promo"
 author = "dani"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
@@ -99,6 +99,7 @@ copyright = "| Copyright &copy; 2021 [GoldenSpacePromo Inc](https://goldenspacep
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "$"
 fancybox = true
+purpose = "We believe your marketing could be better！<br> We can prove it. Work with experts to discover your opportunities across a spectrum of marketing and sales solutions."
 
   # Preloader
   [params.preloader]

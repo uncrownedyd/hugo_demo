@@ -14,8 +14,13 @@
             {{ range .promoItem }}
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card border-0 text-center">
+
+                    <a data-fancybox="gallery" href="{{ .cover | absURL }}">
+                        <img src="{{ .cover | absURL }}" alt="{{ .Title }}" class="card-img-top">
+                    </a>
+
                     <!--                <a href="{{ .Permalink }}">-->
-                    <img src="{{ .cover | absURL }}" alt="{{ .Title }}" class="card-img-top">
+<!--                    <img src="{{ .cover | absURL }}" alt="{{ .Title }}" class="card-img-top">-->
                     <!--                </a>-->
                 </div>
                 <div class="card-body">

@@ -292,14 +292,14 @@ testimonial:
   testimonialItem:
     # testimonial item loop
     - name : "Ken Tu"
-      image : "images/clients/client-1.jpg" # size 100px*100px
+      image : "images/clients/kentu.jpeg" # size 100px*100px
       designation : "Vice President of Sales"
       content : "Experienced sales professional with a demonstrated history of working in the marketing and advertising industry. Skilled in Sales Coaching, Advertising, Business Development, Marketing Strategy, and Account Management. Strong entrepreneurship professional！"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
     - name : "Leslie Lee"
-      image : "images/clients/client-2.jpg" # size 100px*100px
+      image : "images/clients/leslielee.png" # size 100px*100px
       designation : "Director of Marketing"
       content : "Professional communicator, marketer, writer and advocate for the print and promotional products industry.
 My goal is to help our sales associates, vendor partners, customers and corporate teams connect and find success through expertly-executed events, marketing strategy and compelling brand storytelling."
@@ -307,7 +307,7 @@ My goal is to help our sales associates, vendor partners, customers and corporat
       
     # testimonial item loop
     - name : "Carrie Wong"
-      image : "images/clients/client-3.jpg" # size 100px*100px
+      image : "images/clients/carriewong.png" # size 100px*100px
       designation : "Promotional Sales Rep"
       content : "Specialties: I specialize in finding effective promotional products that will make the right impression to the group you are targeting. Give me a little information: intended receiver, desired outcome, when and where the event will take place, and I'll come back with some great options that will have the desired impact!"
       rating : "five" # rating star, one to five
